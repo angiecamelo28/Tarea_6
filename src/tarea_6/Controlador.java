@@ -31,7 +31,7 @@ public class Controlador {
      * toString de la clase estudiante.
      */
     public void mostrarEstudiante() {
-        for (Estudiante estudiante1 : listaEstudiantes) {
+        for (Estudiante estudiante1 : getListaEstudiantes()) {
             System.out.println(estudiante1.toString());
         }
     }
