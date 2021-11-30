@@ -1,14 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package tarea_6;
 
 /**
  * Información académica de un estudiante.
+ * @version 1.0
  * @author Manuela Cruz y Angie Camelo
  */
+
 public class Estudiante {
      private String cedula;
     private String nombre;
@@ -44,7 +42,8 @@ public class Estudiante {
 
     @Override
     public String toString() {
-        String informacion = "Cedula: " + this.cedula + " Nombre: " + this.nombre + " Cant Materias: " + this.cantidadMaterias;
+        String informacion = "Cedula: " + this.cedula + " Nombre: " + 
+                this.nombre + " Cant Materias: " + this.cantidadMaterias;
         return informacion; 
     }
 }

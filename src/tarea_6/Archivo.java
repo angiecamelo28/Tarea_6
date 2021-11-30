@@ -7,9 +7,11 @@ import java.io.FileReader;
 import java.util.ArrayList;
 
 /**
+ * Manipulación de archivos.
  * @version 1.0
  * @author Manuela Arcila - Angie Camelo
  */
+
 public class Archivo {
     
     public ArrayList<Estudiante> valores = new ArrayList<>();
