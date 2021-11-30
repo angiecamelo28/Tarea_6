@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 /**
  * Controlador de estudiantes
- *
  * @version 1.0
  * @author Manuela Cruz y Angie Camelo
  */
