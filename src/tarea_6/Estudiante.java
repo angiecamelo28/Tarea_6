@@ -18,12 +18,6 @@ public class Estudiante {
         this.cantidadMaterias = 1;
     } 
     
-    public Estudiante(String cedula, String nombre,int cantidadMaterias) {
-        this.cedula = cedula;
-        this.nombre = nombre;
-        this.cantidadMaterias = cantidadMaterias;
-    } 
-
     public int getCantidadMaterias() {
         return cantidadMaterias;
     }        
