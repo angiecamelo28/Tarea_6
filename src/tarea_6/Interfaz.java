@@ -28,11 +28,6 @@ public class Interfaz {
         lista = archivo.leerArchivo("src\\Pruebas\\" + ruta + ".txt");
         
         mostrarInformacion(lista);
-        
-        ArrayList<Estudiante> estudiantes = controlador.getListaEstudiantes();
-        for (Estudiante estudiante1 : estudiantes) {
-            //System.out.println(estudiante1);
-        }
     }
     
     /**
